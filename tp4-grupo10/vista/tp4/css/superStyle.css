@@ -1,0 +1,95 @@
+/* diseño para los bloque donde se muestra informacion*/
+.block-datos
+{
+    border-right: 1px solid black ;
+    margin-top: 5px;
+    background-color: rgb(73, 91, 209);
+    color: white;
+}
+
+/*efecto de sombra*/
+.block-datos:hover
+{
+    box-shadow: 5px 5px 5px 5px rgb(96, 96, 96);
+}
+
+/*estilo para los carteles de info*/
+.cartel
+{
+    background-color: rgb(73, 91, 209);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+}
+
+/*estilo de link destro de parrafos*/
+p a 
+{
+    text-decoration-line: none;
+    color: red;
+}
+
+p a:hover
+{
+    color: violet;
+}
+
+/*estilo de link destro de titulos*/
+h2 a 
+{
+    text-decoration-line: none;
+    color: red;
+}
+
+h2 a:hover
+{
+    color: violet;
+}
+
+/*estilo links individuales*/
+a
+{
+    text-decoration-line: none;
+    color: red;
+}
+
+a:hover
+{
+    color: violet;
+}
+
+
+/*estilo para los formularios de la pagina*/
+#formulario
+{
+    width: 500px;
+    background-color: rgb(73, 91, 209);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* resultado busqueda del buscar auto*/
+#resultado
+{
+    background-color: rgb(73, 91, 209);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 900px;
+}
+
+table th 
+{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+table td
+{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+}
